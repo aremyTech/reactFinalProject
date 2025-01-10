@@ -1,0 +1,75 @@
+
+  .app-layout {
+    display: flex;
+    margin-top: 5vh;
+    min-height: 75vh;
+  }
+
+  .main-content {
+    flex: 1; /* Centra los elementos */
+  }
+
+  .nav {
+    min-width: 100vw;
+    padding: 0;
+    z-index: 1; /* Eleva el elemento por encima de otros */
+    position: relative; /* Asegura que el fondo se aplique al contenedor */
+    height: 10vh;
+  }
+
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 70vh;
+  }
+  
+  .footer {
+    font-size: 14px;
+    height: 10vh;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-button {
+    margin-top: 15px;
+    padding: 5px;
+  }
+
+  .add-button {
+    margin-right: 20px;
+  }
+
+  .order-button {
+    margin-top: 15px;
+  }
+
+  .logo {
+    display: inline-block;
+    height: 10em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    animation: logo-spin infinite 20s linear;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
