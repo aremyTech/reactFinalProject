@@ -2,12 +2,7 @@
 # finalReactProject
 Proyecto final, Certificación Desarrollador Front End Nivel Medio con JavaScript React
 
-# React + Vite
+Este administrador de tareas permite la navegación a diferentes rutas que muestran las tareas en lista o calendario, la opción de agregar, editar o eliminar. Filtros y ordenamiento.
+Implementa diversos hooks, carga diferida y otra serie de elementos como la libreria chakra-ui.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+Despues de clonar el repositorio, instalar dependencias: npm install 
